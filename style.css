@@ -1071,14 +1071,14 @@ h3 {
   justify-content: center;
 }
 
-.process .container > h3 {
-  margin-top: 40px;
-}
-
 .process .container > p {
   font-size: 20px;
   max-width: 600px;
   margin: auto;
+}
+
+.process .container > a {
+  margin-bottom: 50px;
 }
 
 .process-step {
@@ -1984,4 +1984,8 @@ footer .logo img {
     align-items: center;
     justify-content: center;
   }
+}
+
+.pt-5 {
+  padding-top: 50px !important;
 }
