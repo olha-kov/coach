@@ -363,7 +363,9 @@ nav a.btn-join {
   font-size: 20px;
   text-transform: uppercase;
   border-radius: 130px;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
 }
 
 .btn:hover {
@@ -385,18 +387,20 @@ nav a.btn-join {
   .header {
     height: auto;
     min-height: 100vh;
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
-        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.3),
         rgba(255, 255, 255, 0)
       ),
-      url("images/header-m.png") center/cover no-repeat;
+      url("images/11.jpg") top / cover no-repeat;
+    background-position: 100% 0;
   }
   .hero > img {
     display: none;
   }
   .hero__title {
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 0;
   }
   .hero__title span {
@@ -412,7 +416,7 @@ nav a.btn-join {
     bottom: 0;
     margin: 20px;
     display: flex;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 15px;
   }
   .hero__text {
@@ -686,7 +690,9 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .client-card:hover {
@@ -730,7 +736,9 @@ h3 {
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
 }
 
 .client-btn:hover {
@@ -748,7 +756,9 @@ h3 {
   cursor: pointer;
   margin-top: 20px;
   border: 1px solid var(--blue);
-  transition: background 0.3s ease, color 0.3s ease;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
 }
 
 .btn-small:hover {
@@ -872,8 +882,10 @@ h3 {
   aspect-ratio: 4/3;
   transform: translate3d(-50%, 0, 0);
   transform-style: preserve-3d;
-  transition: transform 0.45s cubic-bezier(0.22, 0.61, 0.36, 1),
-    opacity 0.35s ease, filter 0.35s ease;
+  transition:
+    transform 0.45s cubic-bezier(0.22, 0.61, 0.36, 1),
+    opacity 0.35s ease,
+    filter 0.35s ease;
   will-change: transform;
   z-index: 1;
   opacity: 0.85;
@@ -889,7 +901,8 @@ h3 {
   display: block;
   border-radius: 18px;
   background: #fff;
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18),
+  box-shadow:
+    0 24px 60px rgba(0, 0, 0, 0.18),
     0 6px 20px rgba(107, 107, 107, 0.25);
   border: 1px solid #00000010;
   pointer-events: auto;
@@ -909,7 +922,10 @@ h3 {
   box-shadow: -4px 3px 29px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
   z-index: 40;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    filter 0.18s ease;
 }
 .certs-btn.prev {
   left: -6px;
@@ -944,7 +960,9 @@ h3 {
 }
 .certs-btn:focus-visible {
   outline: none;
-  box-shadow: 0 0 0 3px #fff, 0 0 0 6px rgba(129, 129, 129, 0.85);
+  box-shadow:
+    0 0 0 3px #fff,
+    0 0 0 6px rgba(129, 129, 129, 0.85);
 }
 @media (max-width: 1048px) {
   .certs-btn.prev {
@@ -976,7 +994,10 @@ h3 {
   background: #d7d7d7;
   border: 0;
   cursor: pointer;
-  transition: transform 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
+  transition:
+    transform 0.18s ease,
+    background 0.18s ease,
+    box-shadow 0.18s ease;
 }
 .certs-dot[aria-selected="true"] {
   background: var(--accent);
@@ -1240,7 +1261,9 @@ h3 {
   font-size: 14px;
   cursor: pointer;
   margin-top: 20px;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
 }
 
 .btn-read:hover {
@@ -1309,7 +1332,9 @@ h3 {
 .faq-answer {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s ease, opacity 0.4s ease;
+  transition:
+    max-height 0.5s ease,
+    opacity 0.4s ease;
   opacity: 0;
   padding: 0 20px;
 }
@@ -1571,7 +1596,9 @@ footer .logo img {
   width: 100%;
   border-radius: 20px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
 }
 
 .review-video:hover {
@@ -1621,7 +1648,9 @@ footer .logo img {
   width: 260px;
   height: 180px;
   transform: translate3d(-50%, 0, 0);
-  transition: transform 0.5s ease, opacity 0.5s ease;
+  transition:
+    transform 0.5s ease,
+    opacity 0.5s ease;
   cursor: pointer;
   border-radius: 16px;
   overflow: hidden;
@@ -1826,7 +1855,9 @@ footer .logo img {
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
 }
 
 .rblock-btn:hover {
