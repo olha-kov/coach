@@ -2040,3 +2040,7 @@ footer .logo img {
 .pt-5 {
   padding-top: 50px !important;
 }
+
+.hero .btn {
+  text-transform: inherit;
+}
